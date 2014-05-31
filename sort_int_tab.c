@@ -10,7 +10,15 @@
 /*                                                                            */
 /* ************************************************************************** */
 
+/*
+** DEBUG
+*/
+
 #include <stdio.h>
+
+/*
+** !DEBUG
+*/
 
 void				sort_int_tab(int *tab, unsigned int size)
 {
@@ -32,6 +40,10 @@ void				sort_int_tab(int *tab, unsigned int size)
 	}
 }
 
+ /*
+ ** DEBUG
+ */
+ 
 int			main(void)
 {
 	int		tab[2];
@@ -50,3 +62,7 @@ int			main(void)
 		printf("tab[%d]: %d\n", i, tab[i]);
 	return (0);
 }
+
+/*
+** !DEBUG
+*/
